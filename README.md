@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://github.com/MVX-TKYC/.github/blob/main/profile/tkyc%20logo_bg_transparent_x4.png" width="300" />
+  <img src="https://github.com/MVX-TKYC/.github/blob/main/profile/logo.png" width="300" />
 
   <p>
      An on-chain analysis solution, leveraging artificial intelligence.
@@ -22,8 +22,6 @@
 
 
 # TKYC - Truly Know Your Customer
-
-This is our participation in the [Encode x MultiversX Hackathon](https://www.encode.club/multiversx-hackathon)!
 
 ## Overview
 
