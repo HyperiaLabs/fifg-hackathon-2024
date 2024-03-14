@@ -21,20 +21,18 @@
 
 
 
-# TKYC - Truly Know Your Customer
+# TKYC - Truly Know Your Customer by Hyperia Labs
 
 ## Overview
 
 TKYC is an on-chain analysis solution, leveraging artificial intelligence.  
 With any address, we can determine the type of user it belongs to.  
   
-All of our content created for the hackathon can be accessed on [this Notion page](https://mathis-skipper.notion.site/TKYC-Block-AI-Labs-Submission-a4ebc7fd2d1247c5b6c327c9d5a9be2a?pvs=4), including videos, pitch decks, business cases, and more.
+All of our content created for the hackathon can be accessed on [this Notion page](https://mathis-hyperia-labs.notion.site/Finance-Innovation-For-Good-2024-8792596e4e4349a19bec4a68bb040582?pvs=4), including videos, pitch decks, business cases, and more.
 
 ## Where can I start reviewing this project?
 
 ### Live website
-Check our [live website](https://tkyc-frontend.onrender.com/).
-
 Here's the [repo of the live website](https://github.com/MVX-TKYC/app).  Due to the short duration of the hackathon, the live version is not using our AI model.
 
 ### Getting data to train the IA
