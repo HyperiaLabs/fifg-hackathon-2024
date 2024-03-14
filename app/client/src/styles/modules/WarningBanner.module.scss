@@ -1,0 +1,78 @@
+@import "../variables.scss";
+
+@property --state {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 100%;
+}
+
+.warning-banner {
+    $yellow: #fcd915;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 3px solid $yellow;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+
+    &.is-close {
+        display: none;
+    }
+
+    .close {
+        margin-left: auto;
+        position: relative;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        flex-shrink: 0;
+
+        --state: 100%;
+        transition: --state 0.5s;
+        background: radial-gradient(closest-side, #697895 69%, transparent 70% 100%),
+            conic-gradient($yellow var(--state), transparent 0%);
+
+        animation: test 10s linear 0s infinite none running;
+
+        @keyframes test {
+            0% {
+                --state: 100%;
+            }
+
+            100% {
+                --state: 0%;
+            }
+        }
+    }
+
+    &:hover {
+        .close {
+            background: transparent;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 1rem;
+                height: 2px;
+                background: $yellow;
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            &::after {
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+        }
+    }
+}
