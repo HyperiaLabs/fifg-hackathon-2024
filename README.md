@@ -7,11 +7,9 @@
   </p>
 
   <p>     
-    <a href="https://tkyc-frontend.onrender.com/">Live Website</a>
+    <a href="https://mathis-hyperia-labs.notion.site/Technical-Paper-AI-TKYC-06ceacbb04744e218464f69ec2395a9f?pvs=4">Technical Paper</a>    
     •
-    <a href="https://mathis-skipper.notion.site/Technical-Paper-AI-c247ebfd5a2e46f0b999f60cc1cb596e">Technical Paper</a>    
-    •
-    <a href="https://mathis-skipper.notion.site/TKYC-Block-AI-Labs-Submission-a4ebc7fd2d1247c5b6c327c9d5a9be2a?pvs=4">Notion</a>
+    <a href="https://mathis-hyperia-labs.notion.site/Finance-Innovation-For-Good-2024-8792596e4e4349a19bec4a68bb040582?pvs=4">Notion</a>
   </p>
   
 </div>
@@ -43,7 +41,7 @@ We created this [tool](https://github.com/MVX-TKYC/tools/blob/main/wallets_data_
 Here is a [link](https://www.swisstransfer.com/d/ed39b9c2-d2b2-4e68-9a40-b5b87b983928) to download the data used.
 
 ### AI Model
-The AI model is not totally finished, but you can check the [WIP AI repo](https://github.com/MVX-TKYC/ai) and the [technical paper](https://mathis-skipper.notion.site/Technical-Paper-AI-c247ebfd5a2e46f0b999f60cc1cb596e)
+The AI model is not totally finished, but you can check the [WIP AI repo](https://github.com/MVX-TKYC/ai) and the [technical paper](https://mathis-hyperia-labs.notion.site/Technical-Paper-AI-TKYC-06ceacbb04744e218464f69ec2395a9f?pvs=4)
 
 ### Itheum
 The WIP implementation of Itheum is available [in this branch](https://github.com/MVX-TKYC/app/blob/itheum/client/src/pages/Profile.tsx).  
