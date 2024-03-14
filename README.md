@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://github.com/MVX-TKYC/.github/blob/main/profile/logo.png" width="300" />
+  <img src="logo.png" width="300" />
 
   <p>
      An on-chain analysis solution, leveraging artificial intelligence.
